@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route("/", methods=["GET"])
 def homepage():
     if request.method == "GET":
-        return jsonify({"message": "This is test . Hello world from CI/CD Python-ECS Fargate Pipeline!"})
+        return jsonify({"message": "now that the pipeline has been made the 2nd developer wants some schnage in code this is the new code pipeline will again start!"})
 
 PORT = int(os.environ.get("PORT", 8080))
 if __name__ == '__main__':
